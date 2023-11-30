@@ -12,7 +12,7 @@ namespace Migration1111
         public PersonContext()
         {
             // Метод EnsureCreated() создаст БД при первом использовании
-            Database.EnsureCreated();
+            // Database.EnsureCreated();
         }
 
         public virtual DbSet<Address> Address { get; set; }
